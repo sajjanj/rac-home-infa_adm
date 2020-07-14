@@ -1,0 +1,31 @@
+# .ev_path node01
+
+export FILE_MACHINES=~/.ssh/machine_names.lst
+export FILE_PASSWD=~/.ssh/db_pass.txt
+export HOSTLST=~/.ssh/infa_hosts.lst
+export MASTER_LOG=~/scripts/log/yoda.log
+export MYIP=`who -m|cut -d"(" -f2|sed "s/)//"`
+
+export INFA_SHARED=/infa_shared
+export PMRootDir=${INFA_SHARED}
+
+export ADZIP="/infa_shared/adzip/"
+export ADZIPLST=${ADZIP}"/adzip.lst"
+export FTP_ARCH_INBOUND="/dsftp/archive/inbound"
+export FTP_ARCH_OUTBOUND="/dsftp/archive/outbound"
+export FTP_INBOUND="/dsftp/operations/inbound"
+export FTP_OUTBOUND="/dsftp/operations/outbound"
+export INFA_TRUSTSTORE=$INFA_HOME"/services/shared/security"
+export NODE_LOG_DIR=$INFA_SHARED"/LogSvcDir/"$INFA_NODE1
+export OSSINFO=$INFA_HOME"/DataTransformation"
+export PMBadFileDir=${PMRootDir}"/BadFiles"
+export PMCacheDir=${PMRootDir}"/Cache"
+export PMLookupFileDir=${PMRootDir}"/LkpFiles"
+export PMSessionLogDir=${PMRootDir}"/SessLogs"
+export PMSourceFileDir=${PMRootDir}"/SrcFiles"
+export PMStorageDir=${PMRootDir}"/Storage"
+export PMTargetFileDir=${PMRootDir}"/TgtFiles"
+export PMTempDir=${PMRootDir}"/Temp"
+export PMWorkflowLogDir=${PMRootDir}"/WorkflowLogs"
+export SCRIPT_LOGS=${INFA_SHARED}"/Scripts/logs"
+export TNS_ADMIN=${ORACLE_HOME}"/network/admin"

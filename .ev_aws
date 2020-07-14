@@ -1,0 +1,8 @@
+# DEV
+
+# export S3_BUKT_FRANCONNECT='s3://sandbox-data-ssh-unresolved-accounts/'
+# export S3_PROF_FRANCONNECT='CloudExtracts_franconnect_sandbox'
+
+export S3_BUKT_FRANCONNECT='s3://dev-data-ssh-unresolved-accounts/'
+export S3_PROF_FRANCONNECT='CloudExtracts_franconnect_dev'
+

@@ -1,0 +1,28 @@
+#DEV
+
+export CURRENT_USER=`whoami`
+export DB_HOST=THPRACDBS01
+export DB_PORT=1521
+export DB_SVCNM=INFDDB01
+export DB_TYPE=Oracle
+export MACHINE_NAME=`who -m|grep $CURRENT_USER|cut -d "(" -f2|cut -d ")" -f1`
+
+export INFA_NODE1="node01_dhvifoapp01"
+export INFA_NODE2="node02_dhvifoapp02"
+export INFASVC_DOM="Domain_dev"
+export INFASVC_REP="RAC_dev"
+export INFASVC_INT="Int01_dev"
+export INFASVC_INT2="Int01_dev"
+export INFASVC_WEB="Web_Serv"
+export INFASVC_MRS="MODEL_dev"
+export INFASVC_ANS="AS_dev"
+export INFASVC_DIS="DIS_dev"
+export INFASVC_CMS="CMS_dev"
+export INFASVC_DDS="DDS_dev"
+export INFASVC_RDS="RD_dev"
+export INFASVC_MMS="MMS_dev"
+export INFASVC_PLG="PWXLOG_DEV"
+export INFASVC_PLI="PWXL_DEV"
+export INFASVCNM_PLG="pwxccl"
+export INFASVCNM_PLI="dtllst"
+export PCMX_SCHEMA="DEV_PC_REP"

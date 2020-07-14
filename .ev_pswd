@@ -1,0 +1,22 @@
+# DEV
+
+export INFA_DEFAULT_DATABASE_PASSWORD="eEfE0vTJbapGgfdegMvN1XWPs7GkdfEcfXku2Hke9CY="
+export INFA_DEFAULT_DATABASE_USER="dev_domain_rep"
+
+export INFA_DEFAULT_DOMAIN_PASSWORD="aVadvaMdRRE8AtP+uSK/YQ=="
+export INFA_DEFAULT_DOMAIN_USER="Administrator"
+export INFA_DEFAULT_SECURITY_DOMAIN="Native"
+export INFA_DEFAULT_USER="Administrator"
+
+export INFA_PMPASS="ZLNXaoSsSdEMHvc6LcThmA=="
+export INFA_PMUSER="etlsvc"
+
+export QP="DfASIO3jd1PrV9qTovJDVo3jt9KrccajRacg+NF8gN4="
+export UP="rfw/HxTuuaxKyd88spAOX6Nn5Q6ykezBDV7kWOX8q7g="
+
+export BPU="k2gB1VcZJyxRrcqGNKCXpA=="
+export BPQ="k2gB1VcZJyxRrcqGNKCXpA=="
+
+export DB_TNSKEY="INFDDB01"
+export USER_PASSWD="DEV_ETLSVC"
+

@@ -1,0 +1,13 @@
+# colors used in echo statement
+
+export COLOR_NONE='\033[00m'
+export COLOR_RED='\033[01;31m'
+export COLOR_GREEN='\033[01;32m'
+export COLOR_YELLOW='\033[01;33m'
+export COLOR_PURPLE='\033[01;35m'
+export COLOR_CYAN='\033[01;36m'
+export COLOR_WHITE='\033[01;37m'
+export FONT_BOLD='\033[1m'
+export FONT_UNDERLINE='\033[4m'
+export FONT_HIGHLIGHT='\033[7m'
+
